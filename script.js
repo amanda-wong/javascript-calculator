@@ -63,7 +63,6 @@ var lastNumber = 0;
         function _replaceEquationWithValue() {
             lastNumber = buttonValue;
             document.getElementById('display').innerText = buttonValue;
-            console.log('last number', lastNumber);
         }        
     }
 
