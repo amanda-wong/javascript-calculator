@@ -2,7 +2,6 @@
 var lastNumber = 0;
     
     function constructEquation(e){
-        var numRegEx = /\w+\.?\w*/g;
         var displayWindow = document.getElementById('display').innerText;
         var buttonValue = e.target.innerText;
         var lastChar = displayWindow.charAt(displayWindow.length - 1);
